@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,14 +8,6 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <h1>Aprenda numeros binarios</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="resumo.html">Resumo sobre numeros binarios</a></li>
-        <li><a href="converter.html">Teste de conversão</a></li>
-    </ul>
-</nav>
+    <a href="index.php">&#8592;</a>
 </body>
 </html>

@@ -2,21 +2,20 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Número Binário</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 <body>
-    <h1>Conversor de Decimal para Binário</h1>
-    <form method="post">
-        <label for="decimal">Digite um número decimal:</label>
-        <input type="number" name="decimal" id="decimal" required>
-        <button type="submit">Converter</button>
-    </form>
-    <?php
-    if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST["decimal"])) {
-        $decimal = intval($_POST["decimal"]);
-        $binario = decbin($decimal);
-        echo "<p>O número decimal <strong>$decimal</strong> em binário é <strong>$binario</strong>.</p>";
-    }
-    ?>
+    <header>
+        <h1>Aprenda numeros binarios</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="resumo.php">Resumo sobre numeros binarios</a></li>
+        <li><a href="converter.php">Teste de conversão</a></li>
+    </ul>
+</nav>
 </body>
 </html>
