@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,47 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body>
-    <a href="index.html">&#8592;</a>
+<body class="container">
+    <header class="row">
+        <a class="btn btn-primary voltar col-md-2" href="index.html">&#8592;</a>
+        <h1 class="col-md-10">Resumo sobre números binários</h1>
+    </header>
+    <main>
+        <h1>🔢 O que são números binários?</h1>
+        <p>O sistema binário é um sistema de numeração que usa apenas dois dígitos: 0 e 1. É a base da computação digital, pois os computadores trabalham com dois estados — ligado (1) e desligado (0).</p>
+
+        <h1>🔄 Conversão entre binário e decimal</h1>
+        <p>Binário → Decimal Basta multiplicar cada dígito binário da direita para a esquerda por potências de 2 e somar:</p>
+
+        <p>Exemplo: 1011 = 1×2³ + 0×2² + 1×2¹ + 1×2⁰ = 8 + 0 + 2 + 1 = 11</p>
+
+        <p>Decimal → Binário Divida o número decimal por 2, anote o resto, e continue até o quociente ser 0. Depois, inverta os restos:</p>
+
+        <p>Exemplo: 13 13 ÷ 2 = 6 (resto 1) 6 ÷ 2 = 3 (resto 0) 3 ÷ 2 = 1 (resto 1) 1 ÷ 2 = 0 (resto 1) Resultado: 1101</p>
+
+        <h1>➕➖ Soma e subtração em binário</h1>
+        <pre>
+        Soma binária (semelhante à soma decimal):
+        1010
+        + 1101
+        = 10111
+        Regras básicas:
+
+        0 + 0 = 0
+
+        0 + 1 = 1
+
+        1 + 1 = 10 (vai 1)
+
+        1 + 1 + 1 = 11 (vai 1)
+
+        Subtração binária (parecida com subtração decimal): Regras básicas:
+
+        1 - 0 = 1
+
+        1 - 1 = 0
+
+        0 - 1 = empresta 1 (como no decimal)
+    </main>
 </body>
 </html>
